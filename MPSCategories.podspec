@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.homepage          = 'https://github.com/mps/MPSCategories'
   s.source            = { :git => 'https://github.com/mps/MPSCategories.git', :tag => "#{s.version}" }
   s.ios.frameworks    = 'UIKit', 'CoreGraphics', 'QuartzCore'
-  s.ios.source_files  = 'MPSCategories/*'
+  s.ios.source_files  = 'MPSCategories/Foundation/NS*.{h,m}'
   s.osx.source_files  = 'MPSCategories/Foundation/NS*.{h,m}'
 end
