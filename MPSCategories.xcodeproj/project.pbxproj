@@ -17,8 +17,8 @@
 		3433992A19056C8100483B69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3433992119056C8100483B69 /* InfoPlist.strings */; };
 		3433992B19056C8100483B69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3433992319056C8100483B69 /* Images.xcassets */; };
 		3433992C19056C8100483B69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433992419056C8100483B69 /* main.m */; };
-		3433993619056E4800483B69 /* NSDictionary_MPSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433993419056E4800483B69 /* NSDictionary_MPSAdditions.m */; };
-		3433993919056E7700483B69 /* NSDictionary+MPSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3433993819056E7700483B69 /* NSDictionary+MPSAdditions.m */; };
+		344DF11A190572BF00F835B1 /* NSDictionary_MPSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 344DF119190572BF00F835B1 /* NSDictionary_MPSAdditions.m */; };
+		344DF11D190572C800F835B1 /* NSDictionary+MPSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 344DF11C190572C800F835B1 /* NSDictionary+MPSAdditions.m */; };
 		6AAABBFE712F4371B3B1B2C1 /* libPods-MPSCategoriesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C82A3C15071F4C6294E149C5 /* libPods-MPSCategoriesTests.a */; };
 /* End PBXBuildFile section */
 
@@ -48,9 +48,9 @@
 		3433992619056C8100483B69 /* MPSCategories-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPSCategories-Prefix.pch"; sourceTree = "<group>"; };
 		3433992E19056D7C00483B69 /* MPSCategoriesTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MPSCategoriesTests-Info.plist"; sourceTree = "<group>"; };
 		3433993019056D9B00483B69 /* MPSCategoriesTests-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MPSCategoriesTests-prefix.pch"; sourceTree = "<group>"; };
-		3433993419056E4800483B69 /* NSDictionary_MPSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_MPSAdditions.m; sourceTree = "<group>"; };
-		3433993719056E7700483B69 /* NSDictionary+MPSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MPSAdditions.h"; sourceTree = "<group>"; };
-		3433993819056E7700483B69 /* NSDictionary+MPSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MPSAdditions.m"; sourceTree = "<group>"; };
+		344DF119190572BF00F835B1 /* NSDictionary_MPSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_MPSAdditions.m; sourceTree = "<group>"; };
+		344DF11B190572C800F835B1 /* NSDictionary+MPSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MPSAdditions.h"; sourceTree = "<group>"; };
+		344DF11C190572C800F835B1 /* NSDictionary+MPSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MPSAdditions.m"; sourceTree = "<group>"; };
 		41103FEF69A0459AA975C86D /* Pods-MPSCategoriesTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPSCategoriesTests.xcconfig"; path = "Pods/Pods-MPSCategoriesTests.xcconfig"; sourceTree = "<group>"; };
 		C82A3C15071F4C6294E149C5 /* libPods-MPSCategoriesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MPSCategoriesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -130,8 +130,8 @@
 		3433992719056C8100483B69 /* MPSCategories */ = {
 			isa = PBXGroup;
 			children = (
-				3433993119056E2A00483B69 /* Foundation */,
-				3433993219056E2A00483B69 /* UIKit */,
+				344DF11B190572C800F835B1 /* NSDictionary+MPSAdditions.h */,
+				344DF11C190572C800F835B1 /* NSDictionary+MPSAdditions.m */,
 			);
 			path = MPSCategories;
 			sourceTree = "<group>";
@@ -139,43 +139,11 @@
 		3433992819056C8100483B69 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
-				3433993319056E4800483B69 /* Foundation */,
-				3433993519056E4800483B69 /* UIKit */,
+				344DF119190572BF00F835B1 /* NSDictionary_MPSAdditions.m */,
 				3433992E19056D7C00483B69 /* MPSCategoriesTests-Info.plist */,
 				3433993019056D9B00483B69 /* MPSCategoriesTests-prefix.pch */,
 			);
 			path = Specs;
-			sourceTree = "<group>";
-		};
-		3433993119056E2A00483B69 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				3433993719056E7700483B69 /* NSDictionary+MPSAdditions.h */,
-				3433993819056E7700483B69 /* NSDictionary+MPSAdditions.m */,
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		3433993219056E2A00483B69 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		3433993319056E4800483B69 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				3433993419056E4800483B69 /* NSDictionary_MPSAdditions.m */,
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		3433993519056E4800483B69 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,7 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3433992C19056C8100483B69 /* main.m in Sources */,
-				3433993919056E7700483B69 /* NSDictionary+MPSAdditions.m in Sources */,
+				344DF11D190572C800F835B1 /* NSDictionary+MPSAdditions.m in Sources */,
 				3433992919056C8100483B69 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3433993619056E4800483B69 /* NSDictionary_MPSAdditions.m in Sources */,
+				344DF11A190572BF00F835B1 /* NSDictionary_MPSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
