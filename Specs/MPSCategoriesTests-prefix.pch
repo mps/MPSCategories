@@ -1,0 +1,18 @@
+//
+//  MPSCategoriesTests-prefix.pch
+//  MPSCategories
+//
+//  Created by Matthew Strickland.
+//  Copyright (c) 2014 Idle Fusion. All rights reserved.
+//
+
+#ifndef MPSCategories_MPSCategoriesTests_prefix_pch
+#define MPSCategories_MPSCategoriesTests_prefix_pch
+
+#import <Specta/Specta.h>
+#define EXP_SHORTHAND
+#import <Expecta/Expecta.h>
+#import <OCMock/OCMock.h>
+#import <OCMock/NSInvocation+OCMAdditions.h>
+
+#endif
